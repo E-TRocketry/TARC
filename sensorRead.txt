@@ -103,5 +103,5 @@ void loop() {
   Serial.println(" m");
 
   // Delay between readings
-  delay(1000);
+  delay(100);
 }
