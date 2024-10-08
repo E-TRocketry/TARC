@@ -3869,9 +3869,9 @@
 		)
 		(uuid "feefd215-b20f-4d0a-a5e9-0fd3de5ba602")
 	)
-	(text "PALDIN"
+	(text "PALDIN V1.0"
 		(exclude_from_sim no)
-		(at 192.024 189.992 0)
+		(at 195.834 189.738 0)
 		(effects
 			(font
 				(size 2.032 2.032)
