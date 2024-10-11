@@ -80896,7 +80896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0805-R2013X50N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 40.64 143.51 0)
 			(effects
 				(font
@@ -81311,7 +81311,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0402-1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 33.02 0)
 			(effects
 				(font
@@ -82121,7 +82121,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0402-1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.92 213.36 0)
 			(effects
 				(font
@@ -82190,7 +82190,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0402-1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 370.84 201.93 0)
 			(effects
 				(font
@@ -82550,7 +82550,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0402-1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 147.32 0)
 			(effects
 				(font
@@ -85178,7 +85178,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0402-1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 361.95 201.93 0)
 			(effects
 				(font
@@ -85955,7 +85955,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0805-R2013X50N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 81.28 58.42 0)
 			(effects
 				(font
@@ -87180,7 +87180,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0402-1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 298.45 226.06 0)
 			(effects
 				(font
@@ -87699,7 +87699,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0402-1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 153.67 0)
 			(effects
 				(font
@@ -88170,7 +88170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0805-R2013X50N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.67 57.15 0)
 			(effects
 				(font
@@ -88677,7 +88677,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:0402-1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.76 55.88 0)
 			(effects
 				(font
