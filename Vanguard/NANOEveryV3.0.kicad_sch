@@ -82688,7 +82688,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:LEDC1608X80N-AK"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 166.37 147.32 0)
 			(effects
 				(font
@@ -83426,7 +83426,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:SOT190P230X110-4N"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 60.96 123.19 0)
 			(effects
 				(font
@@ -84578,7 +84578,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:LEDC1608X80N-AK"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 176.53 147.32 0)
 			(effects
 				(font
@@ -84983,7 +84983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:TP-1.00MM"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 73.66 104.14 0)
 			(effects
 				(font
@@ -85247,7 +85247,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:LEDC1608X80N-AK"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 302.26 69.85 0)
 			(effects
 				(font
@@ -87834,7 +87834,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:SODFL3517X110N"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -87969,7 +87969,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:SODFL3517X110N"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -88542,7 +88542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:TP-1.00MM"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 71.12 101.6 0)
 			(effects
 				(font
@@ -88608,7 +88608,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:LEDC1608X80N-AK"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 123.19 60.96 0)
 			(effects
 				(font
