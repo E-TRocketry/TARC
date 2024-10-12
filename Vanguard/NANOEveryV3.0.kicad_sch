@@ -81848,7 +81848,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Atmega4809:TQFP48_7x7MC_MCH"
+		(property "Footprint" "ATMEGA4809_AFR:TQFP48_7x7MC_MCH"
 			(at 309.88 187.96 0)
 			(effects
 				(font
@@ -88401,7 +88401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "AP2112k 3.3:SOT_RG1_DIO"
+		(property "Footprint" "AP2112K_3_3:SOT_RG1_DIO"
 			(at 100.33 53.34 0)
 			(effects
 				(font
