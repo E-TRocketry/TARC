@@ -15412,7 +15412,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NANOEveryV3.0:MPM3610"
+		(property "Footprint" "Package_DFN_QFN:DFN-18-1EP_3x5mm_P0.5mm_EP1.66x4.4mm"
 			(at 53.34 50.8 0)
 			(effects
 				(font
