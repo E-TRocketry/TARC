@@ -9449,16 +9449,6 @@
 		)
 		(uuid "71bdab19-995d-41be-8312-c0b5e77e1fbd")
 	)
-	(wire
-		(pts
-			(xy 219.71 195.58) (xy 219.71 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71e03bea-52e1-49d0-9dd6-65a14bbea2ea")
-	)
 	(bus
 		(pts
 			(xy 353.06 101.6) (xy 353.06 99.06)
@@ -11038,6 +11028,17 @@
 			(type solid)
 		)
 		(uuid "ffdbc63a-0180-43d0-8498-aa5503e80b24")
+	)
+	(text "NOTE: Use only VDD, GND, SCL, SDA AND CS (CS if\nwe use mutiple devices on a single single bus) "
+		(exclude_from_sim no)
+		(at 166.37 201.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 11 255 1)
+			)
+		)
+		(uuid "2d17aa40-dca0-420c-ba88-84124b838527")
 	)
 	(label "UPDI"
 		(at 251.46 107.95 0)
