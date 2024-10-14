@@ -9,7 +9,7 @@ env.set_date((tomorrow.year, tomorrow.month, tomorrow.day, 12))
 env.set_atmospheric_model(type="Forecast", file="GFS")
 env.max_expected_height = 5000 
 env.info()
-as
+
 thrust_curve = [
     (0, 0),   
     (0.5, 500),
