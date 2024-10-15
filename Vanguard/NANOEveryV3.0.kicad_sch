@@ -16488,7 +16488,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "645Ω"
 			(at 216.662 213.106 90)
 			(effects
 				(font
@@ -16826,7 +16826,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "538Ω"
 			(at 207.264 212.852 90)
 			(effects
 				(font
