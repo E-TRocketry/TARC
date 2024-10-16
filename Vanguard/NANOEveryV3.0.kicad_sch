@@ -10805,6 +10805,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 91.44) (xy 289.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b061a4-70df-405a-a914-d5b67890c8cf")
+	)
+	(wire
+		(pts
 			(xy 275.59 158.75) (xy 300.99 158.75)
 		)
 		(stroke
@@ -12322,28 +12332,6 @@
 			)
 		)
 	)
-	(global_label "LM34DM_NOPB ANALOG OUT"
-		(shape input)
-		(at 289.56 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "87f3729b-6841-4e3f-b504-520eeeb4bd87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.0862 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "1.8V temp scl"
 		(shape input)
 		(at 350.52 176.53 0)
@@ -12384,6 +12372,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LM34DM_NOPB ANALOG OUT"
+		(shape input)
+		(at 287.02 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eead09b2-ced8-46f2-8189-b6fa0599e8dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.5462 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
