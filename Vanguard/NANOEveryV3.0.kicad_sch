@@ -9337,6 +9337,16 @@
 		)
 		(uuid "832dc9ca-5444-42d2-8bcf-bbd0eab12a42")
 	)
+	(wire
+		(pts
+			(xy 316.23 246.38) (xy 318.77 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8398ee97-4aad-49aa-8c6d-df74c8b4f9f8")
+	)
 	(bus
 		(pts
 			(xy 353.06 93.98) (xy 353.06 91.44)
@@ -9426,6 +9436,16 @@
 			(type solid)
 		)
 		(uuid "8bb18918-6de8-46f7-8bfc-f0ef54b2bd46")
+	)
+	(wire
+		(pts
+			(xy 318.77 246.38) (xy 318.77 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4c70ce-95e2-49e3-8f41-72f53b3102f1")
 	)
 	(wire
 		(pts
@@ -10116,16 +10136,6 @@
 			(type solid)
 		)
 		(uuid "c38285a6-7f97-4336-b969-311ef7095bed")
-	)
-	(wire
-		(pts
-			(xy 287.02 91.44) (xy 289.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b061a4-70df-405a-a914-d5b67890c8cf")
 	)
 	(wire
 		(pts
@@ -11622,7 +11632,7 @@
 	)
 	(global_label "LM34DM_NOPB ANALOG OUT"
 		(shape input)
-		(at 287.02 91.44 180)
+		(at 316.23 246.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11630,9 +11640,9 @@
 			)
 			(justify right)
 		)
-		(uuid "eead09b2-ced8-46f2-8189-b6fa0599e8dc")
+		(uuid "fc41d782-c6f0-4b90-865d-d457ceb49388")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.5462 91.44 0)
+			(at 286.7562 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
