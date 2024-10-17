@@ -7430,126 +7430,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -8513,6 +8393,16 @@
 		)
 		(uuid "014f4e8b-301e-40f7-9aaf-c346ebfa8e44")
 	)
+	(wire
+		(pts
+			(xy 176.53 147.32) (xy 176.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019b251c-0e2f-4372-98e6-2c182789c9a3")
+	)
 	(bus
 		(pts
 			(xy 318.77 129.54) (xy 316.23 129.54)
@@ -8522,6 +8412,16 @@
 			(type solid)
 		)
 		(uuid "0254fd35-18b8-49a9-ae83-4e692c5ceb79")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "02b41308-933c-4588-b04c-ce31121386ec")
 	)
 	(wire
 		(pts
@@ -8755,7 +8655,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 142.24) (xy 176.53 133.35)
+			(xy 176.53 139.7) (xy 176.53 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -9535,6 +9435,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 27.94) (xy 46.99 27.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5dc84be5-ddbe-46ea-8ea4-833d3bbaa7cd")
+	)
+	(wire
+		(pts
 			(xy 166.37 154.94) (xy 166.37 157.48)
 		)
 		(stroke
@@ -9615,16 +9525,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 105.41) (xy 55.88 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "61f2e9ed-e190-49c4-81d5-b63c388a6a23")
-	)
-	(wire
-		(pts
 			(xy 281.94 181.61) (xy 274.32 181.61)
 		)
 		(stroke
@@ -9662,6 +9562,16 @@
 			(type solid)
 		)
 		(uuid "65a0bf47-def8-418b-b61d-b52dd7fd0e6b")
+	)
+	(wire
+		(pts
+			(xy 19.05 27.94) (xy 19.05 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "668d80e4-7343-4173-8fda-cad39a2e4c93")
 	)
 	(wire
 		(pts
@@ -9772,16 +9682,6 @@
 			(type solid)
 		)
 		(uuid "7124054b-6e7d-4e69-8bf3-6bab21a58243")
-	)
-	(wire
-		(pts
-			(xy 35.56 44.45) (xy 35.56 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "71bdab19-995d-41be-8312-c0b5e77e1fbd")
 	)
 	(bus
 		(pts
@@ -10443,6 +10343,16 @@
 		)
 		(uuid "a432aceb-ea8f-4e3b-b3ee-fad06e26c90d")
 	)
+	(wire
+		(pts
+			(xy 52.07 27.94) (xy 81.28 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43f2512-daaa-421d-8a29-5f3bbe080c6c")
+	)
 	(bus
 		(pts
 			(xy 306.07 237.49) (xy 311.15 237.49)
@@ -10672,16 +10582,6 @@
 			(type solid)
 		)
 		(uuid "b4ff32f4-8425-4c4c-9b1b-bb9e98629af7")
-	)
-	(wire
-		(pts
-			(xy 81.28 49.53) (xy 81.28 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b69b17f3-a1a6-4198-a7a3-29788a609148")
 	)
 	(wire
 		(pts
@@ -11022,6 +10922,16 @@
 			(type solid)
 		)
 		(uuid "d94dd764-23ec-4f33-9c7a-51e23b7c49cd")
+	)
+	(wire
+		(pts
+			(xy 81.28 27.94) (xy 81.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4a1959-026c-4210-b655-cac6516ed3f6")
 	)
 	(wire
 		(pts
@@ -11382,6 +11292,16 @@
 			(type default)
 		)
 		(uuid "f3a064b0-4ea4-467f-9d39-9b40039f6e22")
+	)
+	(wire
+		(pts
+			(xy 19.05 88.9) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f408fffc-a5a8-4b93-b983-e5689870476c")
 	)
 	(wire
 		(pts
@@ -13419,139 +13339,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NANOEveryV3.0-eagle-import:VIN")
-		(at 44.45 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1618cc9b-5a15-48fd-a110-5ec58fb54dcd")
-		(property "Reference" "#VIN02"
-			(at 44.45 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 43.942 27.94 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c69ae643-7bc2-4b75-989c-7b14c1327f5f")
-		)
-		(instances
-			(project "NANOEveryV3.0"
-				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
-					(reference "#VIN02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 204.47 207.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b81b2c1-8982-41fa-91d0-0cdc5da5848d")
-		(property "Reference" "#PWR04"
-			(at 208.28 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 200.66 207.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 204.47 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e523dce7-4a85-4c1e-998e-01b885a498a6")
-		)
-		(instances
-			(project ""
-				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NANOEveryV3.0-eagle-import:Arduino-supply_GND")
 		(at 361.95 209.55 0)
 		(unit 1)
@@ -13612,72 +13399,6 @@
 			(project ""
 				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
 					(reference "#GND07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NANOEveryV3.0-eagle-import:+5V")
-		(at 81.28 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f45bb5e-18d8-444d-8b61-e7f77fa2c60b")
-		(property "Reference" "#P+01"
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 81.28 46.482 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf8a3a3c-4603-4249-9513-d59f908d0b3f")
-		)
-		(instances
-			(project ""
-				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
-					(reference "#P+01")
 					(unit 1)
 				)
 			)
@@ -16642,7 +16363,7 @@
 	)
 	(symbol
 		(lib_id "NANOEveryV3.0-eagle-import:LED-0603")
-		(at 176.53 147.32 180)
+		(at 176.53 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16650,7 +16371,7 @@
 		(dnp no)
 		(uuid "7095cf5a-5d9e-455f-8715-5c678edb79de")
 		(property "Reference" "DL4"
-			(at 172.974 142.748 90)
+			(at 172.974 140.208 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16659,7 +16380,7 @@
 			)
 		)
 		(property "Value" "YELLOW"
-			(at 170.815 142.748 90)
+			(at 170.815 140.208 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16668,7 +16389,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 176.53 147.32 0)
+			(at 176.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16677,7 +16398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 147.32 0)
+			(at 176.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16686,7 +16407,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 147.32 0)
+			(at 176.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16770,72 +16491,6 @@
 			(project ""
 				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
 					(reference "#P+05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NANOEveryV3.0-eagle-import:+5V")
-		(at 54.61 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7457f769-5fb8-44fe-8edd-da0342cc5b4d")
-		(property "Reference" "#P+04"
-			(at 54.61 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 55.118 27.94 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4960164-4b0b-4b89-a303-f72c4e47ce1a")
-		)
-		(instances
-			(project ""
-				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
-					(reference "#P+04")
 					(unit 1)
 				)
 			)
@@ -17107,6 +16762,72 @@
 			(project "NANOEveryV3.0"
 				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:+3V3")
+		(at 201.93 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78be29d7-0af5-4a3c-ba33-9709bd4a3107")
+		(property "Reference" "#+3V013"
+			(at 201.93 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 201.422 207.01 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b9712fd-5b97-4a0f-8a40-c8dc654d8ba6")
+		)
+		(instances
+			(project "NANOEveryV3.0"
+				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
+					(reference "#+3V013")
 					(unit 1)
 				)
 			)
@@ -17861,72 +17582,6 @@
 			(project ""
 				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
 					(reference "#+3V010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NANOEveryV3.0-eagle-import:VIN")
-		(at 35.56 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dff21b0-758f-4f9e-b6dc-ee53c4aeed21")
-		(property "Reference" "#VIN03"
-			(at 35.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 35.56 41.402 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b2b406b-f321-4bdb-89c7-d65c6c629b0c")
-		)
-		(instances
-			(project ""
-				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
-					(reference "#VIN03")
 					(unit 1)
 				)
 			)
@@ -19115,72 +18770,6 @@
 			(project ""
 				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NANOEveryV3.0-eagle-import:VIN")
-		(at 55.88 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0bb9ae8-76a2-4a37-b52e-5e37d672e86a")
-		(property "Reference" "#VIN04"
-			(at 55.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 55.88 101.092 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "505aec47-af0e-41c0-aa42-3c663971ea8b")
-		)
-		(instances
-			(project "NANOEveryV3.0"
-				(path "/34ea8acc-c59c-4b5c-bba1-2d3f07551c63"
-					(reference "#VIN04")
 					(unit 1)
 				)
 			)
