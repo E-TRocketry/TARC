@@ -9274,6 +9274,29 @@
 		)
 		(uuid "23cb4a95-1812-4917-8971-d5cd15b361a1")
 	)
+<<<<<<< HEAD
+=======
+	(wire
+		(pts
+			(xy 311.15 71.12) (xy 311.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bc5fee-6961-42c6-a81e-8e6870bad301")
+	)
+	(wire
+		(pts
+			(xy 73.66 50.8) (xy 73.66 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "265b1405-2750-47e7-968c-c6bc3bb179bf")
+	)
+>>>>>>> e6e53d0e464badcd6eaaa0fa63c2ce66af4edeeb
 	(bus
 		(pts
 			(xy 266.7 184.15) (xy 266.7 158.75)
@@ -9546,13 +9569,21 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 53.34 27.94) (xy 81.28 27.94)
+=======
+			(xy 293.37 77.47) (xy 293.37 82.55)
+>>>>>>> e6e53d0e464badcd6eaaa0fa63c2ce66af4edeeb
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "4f4168e6-6f99-4e99-b5f4-b60f8710987b")
+=======
+		(uuid "50f3264a-985c-4f90-a9f2-80e35ce2e97e")
+>>>>>>> e6e53d0e464badcd6eaaa0fa63c2ce66af4edeeb
 	)
 	(wire
 		(pts
@@ -9583,16 +9614,6 @@
 			(type solid)
 		)
 		(uuid "55bcd82c-b199-4757-816a-75ce571f8107")
-	)
-	(wire
-		(pts
-			(xy 224.79 182.88) (xy 256.54 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56146722-1803-476e-8460-dcbcf9888507")
 	)
 	(wire
 		(pts
@@ -10336,16 +10357,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 180.34) (xy 269.24 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c805d8e0-4cd0-473e-942a-b69e5fb1719a")
-	)
-	(wire
-		(pts
 			(xy 186.69 123.19) (xy 186.69 125.73)
 		)
 		(stroke
@@ -10977,6 +10988,72 @@
 		)
 		(uuid "f63dcb55-a709-490d-8574-c2640df01d5a")
 	)
+	(global_label "SCL"
+		(shape output)
+		(at 311.15 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a457d141-a58b-4d8a-8c1e-a4ab0595f25a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 311.15 64.6272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU SDA"
+		(shape bidirectional)
+		(at 293.37 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb5e7ffc-beab-4814-b4b5-db6914bcc01b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.37 65.4511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape output)
+		(at 224.79 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7c9c1cd-6e26-40b0-8638-0f125e8f01b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.2828 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LM34DM_NOPB ANALOG OUT"
 		(shape input)
 		(at 125.73 213.36 0)
@@ -10990,6 +11067,28 @@
 		(uuid "e35ec195-4afa-4768-8fcf-97b21de16899")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.2038 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU SDA"
+		(shape bidirectional)
+		(at 224.79 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f82a6f54-d107-4b09-8459-debf445ecbf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.8089 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,7 +14271,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega4809-M")
-		(at 355.6 116.84 0)
+		(at 318.77 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14181,25 +14280,23 @@
 		(fields_autoplaced yes)
 		(uuid "59a31e98-859a-4e06-902a-341d74a925cf")
 		(property "Reference" "U6"
-			(at 357.7941 152.4 0)
+			(at 360.68 92.2938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "ATmega4809-M"
-			(at 357.7941 154.94 0)
+			(at 360.68 94.8338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:UQFN-48-1EP_6x6mm_P0.4mm_EP4.62x4.62mm"
-			(at 355.6 116.84 0)
+			(at 318.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +14306,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/40002016A.pdf"
-			(at 355.6 116.84 0)
+			(at 318.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14218,7 +14315,7 @@
 			)
 		)
 		(property "Description" "20MHz, 48kB Flash, 6kB SRAM, 256B EEPROM, UQFN-48"
-			(at 355.6 116.84 0)
+			(at 318.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
