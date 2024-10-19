@@ -8783,6 +8783,12 @@
 		(uuid "51af7667-872e-4727-b048-0cd7ebe069a8")
 	)
 	(junction
+		(at 40.64 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5657d941-6e1b-415e-91d6-199c455707e8")
+	)
+	(junction
 		(at 73.66 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9621,6 +9627,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 142.24) (xy 40.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407f8e5f-ed74-46b0-ba90-451bb2c4ab88")
+	)
+	(wire
+		(pts
 			(xy 149.86 33.02) (xy 149.86 36.83)
 		)
 		(stroke
@@ -10391,7 +10407,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 135.89) (xy 40.64 140.97)
+			(xy 40.64 135.89) (xy 40.64 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -11489,8 +11505,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NANOEveryV3.0-eagle-import:C-0805")
-		(at 40.64 143.51 0)
+		(lib_id "Device:C")
+		(at 40.64 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11498,7 +11514,7 @@
 		(dnp no)
 		(uuid "058f8fbe-73b8-4b09-9238-8e7914edfd21")
 		(property "Reference" "C1"
-			(at 33.0962 139.7 0)
+			(at 33.0962 142.24 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11507,7 +11523,7 @@
 			)
 		)
 		(property "Value" "4n7"
-			(at 32.9438 142.24 0)
+			(at 32.9438 144.78 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11516,7 +11532,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 40.64 143.51 0)
+			(at 41.6052 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,8 +11540,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 40.64 143.51 0)
+		(property "Datasheet" "~"
+			(at 40.64 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,8 +11549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 143.51 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11543,7 +11559,7 @@
 			)
 		)
 		(property "VOLTAGE" "1KV"
-			(at 32.9438 144.907 0)
+			(at 32.9438 147.447 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17543,7 +17559,7 @@
 	)
 	(symbol
 		(lib_id "NANOEveryV3.0-eagle-import:Arduino-supply_GND")
-		(at 40.64 148.59 0)
+		(at 40.64 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17551,7 +17567,7 @@
 		(dnp no)
 		(uuid "bb732298-19fa-46c6-aff4-6f4951b86e3b")
 		(property "Reference" "#GND010"
-			(at 40.64 148.59 0)
+			(at 40.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17560,7 +17576,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 151.13 0)
+			(at 38.1 155.194 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17569,7 +17585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 148.59 0)
+			(at 40.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17578,7 +17594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 148.59 0)
+			(at 40.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17587,7 +17603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 148.59 0)
+			(at 40.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
