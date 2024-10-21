@@ -3825,8 +3825,8 @@
 		)
 	)
 	(rectangle
-		(start 46.355 281.305)
-		(end 227.965 418.465)
+		(start 231.775 95.25)
+		(end 413.385 232.41)
 		(stroke
 			(width 0)
 			(type default)
@@ -3862,7 +3862,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Pressure:BMP280")
-		(at 168.91 344.17 0)
+		(at 346.71 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3871,7 +3871,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f5497af-d181-4add-916d-a2b2d64004b6")
 		(property "Reference" "U4"
-			(at 175.26 341.6299 0)
+			(at 353.06 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3880,7 @@
 			)
 		)
 		(property "Value" "BMP280"
-			(at 175.26 344.1699 0)
+			(at 353.06 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering"
-			(at 168.91 361.95 0)
+			(at 346.71 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
-			(at 168.91 344.17 0)
+			(at 346.71 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3907,7 @@
 			)
 		)
 		(property "Description" "Absolute Barometric Pressure Sensor, LGA-8"
-			(at 168.91 344.17 0)
+			(at 346.71 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +3950,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLB8721PBF")
-		(at 163.83 364.49 0)
+		(at 341.63 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3959,7 +3959,7 @@
 		(fields_autoplaced yes)
 		(uuid "3529ae29-860d-4f35-a685-dc850a9a5bdf")
 		(property "Reference" "Q1"
-			(at 170.18 363.2199 0)
+			(at 347.98 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3968,7 @@
 			)
 		)
 		(property "Value" "IRLB8721PBF"
-			(at 170.18 365.7599 0)
+			(at 347.98 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3977,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 168.91 366.395 0)
+			(at 346.71 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +3988,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
-			(at 168.91 368.3 0)
+			(at 346.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +3998,7 @@
 			)
 		)
 		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
-			(at 163.83 364.49 0)
+			(at 341.63 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4316,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 180.34 382.27 0)
+		(at 358.14 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4325,7 +4325,7 @@
 		(fields_autoplaced yes)
 		(uuid "770e64ac-ac2a-4406-8b39-dcc232d056aa")
 		(property "Reference" "J3"
-			(at 182.88 382.2699 0)
+			(at 360.68 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4334,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 182.88 384.8099 0)
+			(at 360.68 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 382.27 0)
+			(at 358.14 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 382.27 0)
+			(at 358.14 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4361,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 382.27 0)
+			(at 358.14 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4466,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Microchip_SAMD:ATSAMD21G18A-A")
-		(at 124.46 346.71 0)
+		(at 302.26 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4475,7 +4475,7 @@
 		(fields_autoplaced yes)
 		(uuid "8edd767a-d877-4f4a-a058-8f8105c903a8")
 		(property "Reference" "U3"
-			(at 129.1941 394.97 0)
+			(at 306.9941 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4484,7 @@
 			)
 		)
 		(property "Value" "ATSAMD21G18A-A"
-			(at 129.1941 397.51 0)
+			(at 306.9941 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4493,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-48_7x7mm_P0.5mm"
-			(at 147.32 393.7 0)
+			(at 325.12 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4502,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf"
-			(at 124.46 321.31 0)
+			(at 302.26 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4511,7 @@
 			)
 		)
 		(property "Description" "SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 256K Flash, 32K SRAM, TQFP-48"
-			(at 124.46 346.71 0)
+			(at 302.26 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4674,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:BNO055")
-		(at 172.72 311.15 0)
+		(at 350.52 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4683,7 +4683,7 @@
 		(fields_autoplaced yes)
 		(uuid "a00248ed-da54-4948-97a2-181547f21b02")
 		(property "Reference" "U2"
-			(at 177.4541 290.83 0)
+			(at 355.2541 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4692,7 @@
 			)
 		)
 		(property "Value" "BNO055"
-			(at 177.4541 293.37 0)
+			(at 355.2541 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4701,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm"
-			(at 179.07 327.66 0)
+			(at 356.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +4711,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf"
-			(at 172.72 306.07 0)
+			(at 350.52 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4720,7 @@
 			)
 		)
 		(property "Description" "Intelligent 9-axis absolute orientation sensor, LGA-28"
-			(at 172.72 311.15 0)
+			(at 350.52 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
