@@ -10718,7 +10718,7 @@
 	)
 	(polyline
 		(pts
-			(xy 306.07 193.04) (xy 419.1 193.04)
+			(xy 227.33 193.04) (xy 419.1 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11102,7 +11102,7 @@
 	)
 	(rectangle
 		(start 138.43 193.04)
-		(end 307.34 267.335)
+		(end 228.6 266.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -11188,6 +11188,16 @@
 		)
 		(uuid "474e729a-6012-4731-8436-15328c1a0edb")
 	)
+	(text "FLASH CHIP\n"
+		(exclude_from_sim no)
+		(at 212.2747 205.1733 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "75b01902-b669-4b59-970b-e748e6cdbd14")
+	)
 	(text "SENSORS "
 		(exclude_from_sim no)
 		(at 155.956 109.982 0)
@@ -11197,16 +11207,6 @@
 			)
 		)
 		(uuid "b7091c9a-ef82-4b5a-afb8-303fc4724162")
-	)
-	(text "FLASH CHIP\n"
-		(exclude_from_sim no)
-		(at 269.4247 207.7133 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "ce8766ae-a769-46b4-85b4-c88a5c2ed762")
 	)
 	(text "SERVOS\n"
 		(exclude_from_sim no)
@@ -11568,28 +11568,6 @@
 			)
 		)
 	)
-	(global_label "PA3{slash}SS"
-		(shape passive)
-		(at 209.55 231.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "298f0f2c-f120-4ed4-862b-1168148f1cd1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.3585 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 52.07 151.13 180)
@@ -11832,6 +11810,28 @@
 			)
 		)
 	)
+	(global_label "PA1{slash}MOSI"
+		(shape input)
+		(at 152.4 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58ff0a45-3fa5-47e4-bda9-ed3053c478ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D7"
 		(shape bidirectional)
 		(at 243.84 124.46 0)
@@ -11920,6 +11920,28 @@
 			)
 		)
 	)
+	(global_label "PA2{slash}SCK"
+		(shape input)
+		(at 152.4 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6438264c-52a6-4920-9462-f543f4548043")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.7667 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PORT_BLUE"
 		(shape input)
 		(at 335.28 109.22 0)
@@ -11966,6 +11988,28 @@
 	)
 	(global_label "PA0{slash}MISO"
 		(shape output)
+		(at 152.4 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "738dada1-5484-4ac4-ad89-0ddd5328dfaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.92 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA0{slash}MISO"
+		(shape output)
 		(at 213.36 177.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11977,28 +12021,6 @@
 		(uuid "73bda3e0-b664-4d03-8e2d-0ce8c9de88dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.88 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA2{slash}SCK"
-		(shape input)
-		(at 209.55 233.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73e4bffc-2304-4d37-a459-05032940358e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9167 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12250,28 +12272,6 @@
 			)
 		)
 	)
-	(global_label "PA1{slash}MOSI"
-		(shape input)
-		(at 209.55 236.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b818cb08-deae-4aed-8112-2c658b7dd254")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.07 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UPDI"
 		(shape output)
 		(at 191.77 43.18 0)
@@ -12338,6 +12338,28 @@
 			)
 		)
 	)
+	(global_label "PA3{slash}SS"
+		(shape passive)
+		(at 152.4 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dab2e349-0b7d-4c2c-b55f-33e95f80eb43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.2085 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PS1"
 		(shape input)
 		(at 73.66 158.75 180)
@@ -12351,28 +12373,6 @@
 		(uuid "e0254c13-463d-4b79-9bb3-f2a4d5f9ab5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.9858 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA0{slash}MISO"
-		(shape output)
-		(at 209.55 238.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e38106eb-e655-4772-83b8-1b4af08467b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.07 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14460,203 +14460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AT25DF641A-SH-T:AT25DF641A-SH-T")
-		(at 227.33 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ff24cbe-b1cd-4f30-916b-8a141f389d64")
-		(property "Reference" "U3"
-			(at 227.33 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AT25DF641A-SH-T"
-			(at 227.33 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AT25DF641A-SH-T:SOIC127P798X216-8N"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT25DF641A-SH-T/Dialog+Semiconductor/view-part/?ref=snap"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.16 mm"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Dialog Semiconductor"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AT25DF641A-SH-T/Dialog+Semiconductor/view-part/?ref=eda"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "06-2020"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Dialog Semiconductor"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "AT25DF641A-SH-T"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n64 Mbit, 3.0V (2.7V to 3.6V), -40C to 85C, SOIC-W 208mil (Tape & Reel), Single, Dual SPI NOR flash\n"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Dialog Semiconductor"
-			(at 227.33 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "8e3fdc15-8562-4480-b25f-ee1afcb0ffc1")
-		)
-		(pin "2"
-			(uuid "0de50923-d50a-45fe-b22d-4c0042227997")
-		)
-		(pin "8"
-			(uuid "a791b9ac-d5aa-4127-824a-564bd5eb969c")
-		)
-		(pin "3"
-			(uuid "29345559-8bac-406e-89f6-71396140b074")
-		)
-		(pin "1"
-			(uuid "eaedcbd5-6924-4cbf-b6df-d20b491091c3")
-		)
-		(pin "7"
-			(uuid "b3910383-460e-4e29-9fec-05ec9127b6a2")
-		)
-		(pin "4"
-			(uuid "40954468-ac8c-4046-84f0-b1416aefdde5")
-		)
-		(pin "6"
-			(uuid "f8e31c43-e7e8-4e4e-87d1-210449de82bc")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 407.67 158.75 0)
 		(unit 1)
@@ -16665,6 +16468,73 @@
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 187.96 223.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656afe1a-ab15-4a4f-ab0b-216a1717f3dc")
+		(property "Reference" "#PWR052"
+			(at 184.15 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.77 223.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 187.96 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b16a91a7-8548-4a43-bb31-43ea194acef3")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -18917,73 +18787,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 245.11 226.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98899f09-9f12-40b0-9a88-68a2637a94d0")
-		(property "Reference" "#PWR052"
-			(at 241.3 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 248.92 226.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.11 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9784a8e3-1287-4e55-b65e-18ff8073132c")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 384.81 55.88 90)
 		(unit 1)
@@ -19181,73 +18984,6 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 243.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a848d88f-de16-4111-8f7d-2329b9a2762b")
-		(property "Reference" "#PWR053"
-			(at 251.46 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 243.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ebaa18f-8f07-402c-b460-e3981745846d")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -19583,6 +19319,203 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AT25DF641A-SH-T:AT25DF641A-SH-T")
+		(at 170.18 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1839a7f-67d9-4eef-a682-1a815a348fc0")
+		(property "Reference" "U3"
+			(at 170.18 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AT25DF641A-SH-T"
+			(at 170.18 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT25DF641A-SH-T:SOIC127P798X216-8N"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT25DF641A-SH-T/Dialog+Semiconductor/view-part/?ref=snap"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.16 mm"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Dialog Semiconductor"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AT25DF641A-SH-T/Dialog+Semiconductor/view-part/?ref=eda"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "06-2020"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Dialog Semiconductor"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AT25DF641A-SH-T"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n64 Mbit, 3.0V (2.7V to 3.6V), -40C to 85C, SOIC-W 208mil (Tape & Reel), Single, Dual SPI NOR flash\n"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Dialog Semiconductor"
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5117fb84-fe0f-4a42-971e-ee79297585ad")
+		)
+		(pin "2"
+			(uuid "9e9baef2-ee36-478f-aaf7-92de5da9d996")
+		)
+		(pin "8"
+			(uuid "b8ef5d50-b62d-48f4-b679-0b865f25c165")
+		)
+		(pin "3"
+			(uuid "7ceea60f-2ba7-4101-a791-9bfad04b26a8")
+		)
+		(pin "1"
+			(uuid "f4c7d0cd-7d27-4dc7-bb4c-8fadcb707e26")
+		)
+		(pin "7"
+			(uuid "bbc5b9de-50fe-4644-b3ce-84b4f7d9603d")
+		)
+		(pin "4"
+			(uuid "6b52f250-e690-43b2-9ee1-9c4c389770b4")
+		)
+		(pin "6"
+			(uuid "07143c64-82ef-476e-948b-3283ec0ab8e0")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -21059,6 +20992,73 @@
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 241.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb79284-6585-4f7a-8675-0f452d9d1979")
+		(property "Reference" "#PWR053"
+			(at 194.31 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 241.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f81ca0fd-6da5-4964-b80a-a6b977855033")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
