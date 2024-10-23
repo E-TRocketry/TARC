@@ -8678,7 +8678,7 @@
 		(uuid "c2c041db-a698-45fb-a236-16ec9e990f7b")
 	)
 	(global_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 49.53 148.59 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8689,7 +8689,7 @@
 		)
 		(uuid "02b786c8-bb87-46a6-a7d7-5329d09d2728")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9767 148.59 0)
+			(at 41.8654 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,6 +8761,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_out"
+		(shape input)
+		(at 290.83 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fa257dd-7131-4e82-8d27-f11c46b525ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.9549 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8849,6 +8871,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UPDI"
+		(shape input)
+		(at 368.3 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27b12ab9-fc25-41be-8d85-a7a74a34ea32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.7605 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8954,6 +8998,28 @@
 		(uuid "4254d8d3-70f8-4dc7-b3ce-d0ac1070ae58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.444 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 337.82 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "448a1e82-3abb-47c7-b1ff-44448ca1f6cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.3272 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,6 +9245,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 337.82 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "906b8e7b-2146-47f2-9139-20e011558be6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 330.1554 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15326,7 +15414,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_B_Micro"
+		(property "Value" "USB_C"
 			(at 35.56 17.78 0)
 			(effects
 				(font
@@ -15482,7 +15570,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c26dbbdd-11af-45d1-8d7e-640f57db2ac9")
 		(property "Reference" "#PWR025"
 			(at 280.67 58.42 0)
@@ -15494,7 +15581,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 57.15 0)
+			(at 276.098 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16589,7 +16676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df7ccdf3-dcb4-4e52-ba2e-83b6e5895071")
-		(property "Reference" "ADR"
+		(property "Reference" "ADR1"
 			(at 32.258 147.828 0)
 			(effects
 				(font
@@ -16644,7 +16731,7 @@
 		(instances
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "ADR")
+					(reference "ADR1")
 					(unit 1)
 				)
 			)
