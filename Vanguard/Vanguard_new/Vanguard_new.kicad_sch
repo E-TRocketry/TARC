@@ -11345,22 +11345,22 @@
 	)
 	(global_label "BUZZER"
 		(shape input)
-		(at 386.08 111.76 270)
+		(at 398.78 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "08e94633-c270-45d6-885c-d891c45b20a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 386.08 122.1837 90)
+			(at 409.2037 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12872,7 +12872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 391.16 104.14 0)
+		(at 391.16 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12881,7 +12881,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cece771-5f3d-4151-a1a4-c0d799527343")
 		(property "Reference" "#PWR070"
-			(at 391.16 110.49 0)
+			(at 391.16 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,7 +12890,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 391.16 109.22 0)
+			(at 391.16 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12898,7 +12898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 104.14 0)
+			(at 391.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12907,7 +12907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 104.14 0)
+			(at 391.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12916,7 +12916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 391.16 104.14 0)
+			(at 391.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13713,75 +13713,6 @@
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 386.08 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "228265f0-ace7-47ff-a5ab-b1fe1bf758f9")
-		(property "Reference" "R31"
-			(at 380.492 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 380.492 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 384.302 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 386.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 386.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a0f75f5-41ba-4ecf-8033-b2b69d770347")
-		)
-		(pin "1"
-			(uuid "9d3c2591-54b2-4412-a9a6-f951de9e2f3b")
-		)
-		(instances
-			(project ""
-				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -15890,6 +15821,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 386.08 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "538fdb1d-9815-4768-980f-35ff6edfa23e")
+		(property "Reference" "#PWR071"
+			(at 386.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 386.0801 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 386.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a291f5-754a-4679-8383-f6393578bddb")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BNO086:BNO086")
 		(at 104.14 156.21 0)
 		(unit 1)
@@ -17333,6 +17331,79 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 393.7 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fce79da-10cd-45f7-88b6-83528183bdd8")
+		(property "Reference" "Q4"
+			(at 401.066 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 403.098 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 388.62 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 388.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 393.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d37c10e4-f1eb-4e83-b5b1-37c750f11a85")
+		)
+		(pin "3"
+			(uuid "849b1854-22b7-4045-8d3c-41a747088726")
+		)
+		(pin "1"
+			(uuid "dfc1a936-6050-4c69-8180-32f9c4ba633e")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
