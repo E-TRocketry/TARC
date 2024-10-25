@@ -7835,16 +7835,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Monolithic Power"
+			(property "Description" "MPM3610A Series 21 V 1.2 A Adj. SMT Synchronous Step-Down Converter - QFN-20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7854,7 +7845,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "MPM3610A Series 21 V 1.2 A Adj. SMT Synchronous Step-Down Converter - QFN-20"
+			(property "MF" "Monolithic Power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -18907,7 +18898,7 @@
 	(symbol
 		(lib_name "MPM3610AGQV-P_1")
 		(lib_id "MPM3610AGQV-P:MPM3610AGQV-P")
-		(at 317.5 -11.43 0)
+		(at 306.07 10.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18916,7 +18907,7 @@
 		(fields_autoplaced yes)
 		(uuid "76cf1f4f-8ee2-4575-9e1b-bc76c0c1be2e")
 		(property "Reference" "U9"
-			(at 317.5 -30.48 0)
+			(at 306.07 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18924,7 +18915,7 @@
 			)
 		)
 		(property "Value" "MPM3610AGQV-P"
-			(at 317.5 -29.21 0)
+			(at 306.07 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18932,7 +18923,7 @@
 			)
 		)
 		(property "Footprint" "MPM3610AGQV-P:CONV_MPM3620AGQV-P"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18942,7 +18933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18951,7 +18942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18960,7 +18951,7 @@
 			)
 		)
 		(property "MF" "Monolithic Power"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18970,7 +18961,7 @@
 			)
 		)
 		(property "DESCRIPTION" "MPM3610A Series 21 V 1.2 A Adj. SMT Synchronous Step-Down Converter - QFN-20"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18980,7 +18971,7 @@
 			)
 		)
 		(property "PACKAGE" "QFN-20 Monolithic Power Systems"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18990,7 +18981,7 @@
 			)
 		)
 		(property "PRICE" "2.62 USD"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19000,7 +18991,7 @@
 			)
 		)
 		(property "Package" "QFN-20 MPS"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19010,7 +19001,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MPM3610AGQV-P/Monolithic+Power+Systems+Inc./view-part/?ref=eda"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19020,7 +19011,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendation"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19030,7 +19021,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19040,7 +19031,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MPM3610AGQV-P/Monolithic+Power+Systems+Inc./view-part/?ref=snap"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19050,7 +19041,7 @@
 			)
 		)
 		(property "MP" "MPM3610AGQV-P"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19060,7 +19051,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19070,7 +19061,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +19071,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Bad"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19090,7 +19081,7 @@
 			)
 		)
 		(property "Description_1" "\nNon-Isolated PoL Module DC DC Converter 1 Output 0.8 ~ 18.48V - - - 1.2A 4.5V - 21V Input\n"
-			(at 317.5 -11.43 0)
+			(at 306.07 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
