@@ -1245,7 +1245,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "50ec4ca2-cd67-4d8a-b9df-75fc463e0100")
@@ -1257,7 +1257,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "6e011714-2884-4da4-81a5-06d74ce945bf")
 			(effects
@@ -1412,7 +1412,7 @@
 			(uuid "53a73217-970d-4ba1-9df2-1293c0c7481d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "90e67ecf-2c6e-4ad3-95ec-a3e770b26df9")
 			(effects
@@ -7930,7 +7930,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 28.55 -0.18 360)
+			(at 28.55 -0.18 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e5fabc88-974c-41be-b9d9-cad639903a90")
@@ -7942,7 +7942,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 28.550001 1.92 360)
+			(at 28.550001 1.92 0)
 			(layer "F.Fab")
 			(uuid "426e4282-8993-4c13-b42d-c7780fe7fed7")
 			(effects
@@ -8077,7 +8077,7 @@
 			(uuid "c09f4d9c-554b-4950-9acc-fe8abe3a772d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.680001 360)
+			(at 0 -0.680001 0)
 			(layer "F.Fab")
 			(uuid "49cb6ba2-a546-48ca-a65f-e732886da3b1")
 			(effects
@@ -9938,7 +9938,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 28.55 -0.18 360)
+			(at 28.55 -0.18 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "01b93f95-0760-4fa5-ae09-c13b884b6a42")
@@ -9950,7 +9950,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 28.550001 1.92 360)
+			(at 28.550001 1.92 0)
 			(layer "F.Fab")
 			(uuid "4bab8389-6148-4b3b-b8d1-d2331ee2e85d")
 			(effects
@@ -10085,7 +10085,7 @@
 			(uuid "5a1a76fd-7222-4f5d-a4cc-ac738c152b41")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.680001 360)
+			(at 0 -0.680001 0)
 			(layer "F.Fab")
 			(uuid "d96ad866-fbf0-400e-ac02-8d60b8f65cc7")
 			(effects
@@ -19253,6 +19253,30 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "e72abc6d-5219-4daa-bbee-5d5e1cf3e75f")
+	)
+	(gr_text "starboard"
+		(at 142.83 91.57 0)
+		(layer "F.SilkS")
+		(uuid "37e3e671-96d1-44f2-a937-0adaab66417e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "portside"
+		(at 106.97 105.8 0)
+		(layer "F.SilkS")
+		(uuid "d799ccd4-1485-4cf5-93e1-c72d5377021e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 114.540619 114.0425)
