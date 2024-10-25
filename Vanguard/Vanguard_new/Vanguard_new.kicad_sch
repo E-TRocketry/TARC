@@ -12140,28 +12140,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 213.36 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "906b8e7b-2146-47f2-9139-20e011558be6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.6954 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PORT_SERVO"
 		(shape output)
 		(at 213.36 129.54 180)
@@ -12197,6 +12175,28 @@
 		(uuid "99b2554c-2035-455c-9de3-a209e974f20b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7267 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 213.36 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9dbdb5af-0d6b-43bf-9a17-66fde3bc5c81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.6954 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12384,7 +12384,7 @@
 	)
 	(global_label "STAR_BLUE"
 		(shape output)
-		(at 213.36 132.08 180)
+		(at 213.36 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12394,7 +12394,7 @@
 		)
 		(uuid "efc5d115-f8a3-47d4-b706-3655f2718e92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.0939 132.08 0)
+			(at 200.0939 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
