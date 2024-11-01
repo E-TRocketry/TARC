@@ -12057,6 +12057,16 @@
 		)
 		(uuid "75b01902-b669-4b59-970b-e748e6cdbd14")
 	)
+	(text "note servo isnt connected"
+		(exclude_from_sim no)
+		(at 339.344 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9dc5ff9d-1bfc-4ccb-9d85-c019deb2076c")
+	)
 	(text "SENSORS "
 		(exclude_from_sim no)
 		(at 155.956 109.982 0)
