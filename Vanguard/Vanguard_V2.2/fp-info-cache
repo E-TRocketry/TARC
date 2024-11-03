@@ -1,11 +1,4 @@
-23781433568993893
-ALLWINNER_H6_V200
-BGA451C65P23X23_1500X1500X118N
-
-
-0
-451
-451
+23772803595503787
 AT25DF641A-SH-T
 SOIC127P798X216-8N
 
@@ -13,13 +6,6 @@ SOIC127P798X216-8N
 0
 8
 8
-ATMEGA328P-AU
-QFP80P900X900X120-32N
-
-
-0
-32
-32
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64679,20 +64665,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-logo
-
-
-0
-0
-0
-MP1584EN
-SOIC127P600X170-9N
-
-
-0
-9
-9
 MPM3610AGQV_P
 CONV_MPM3620AGQV-P
 
@@ -95927,13 +95899,6 @@ igbt diode module
 0
 25
 25
-USB4151-GF-C_REVA
-GCT_USB4151-GF-C_REVA
-
-
-0
-29
-29
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
