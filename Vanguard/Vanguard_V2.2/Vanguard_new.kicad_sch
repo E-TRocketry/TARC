@@ -9734,10 +9734,6 @@
 		(uuid "861c998f-c337-4fb9-b58a-1c088e9b2b07")
 	)
 	(no_connect
-		(at 243.84 165.1)
-		(uuid "867f5462-8a68-4a98-9850-948a709c5371")
-	)
-	(no_connect
 		(at 370.84 167.64)
 		(uuid "8984634a-c4d1-4897-a256-9548a7c5f8f8")
 	)
@@ -12199,6 +12195,28 @@
 		)
 		(uuid "c2c041db-a698-45fb-a236-16ec9e990f7b")
 	)
+	(global_label "EJEC_SERVO"
+		(shape output)
+		(at 243.84 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0006d7c2-7fc9-4422-8178-9bd44e637fba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.376 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 49.53 148.59 180)
@@ -13048,6 +13066,28 @@
 		(uuid "93c36982-1d44-4332-aef5-d205346bad35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.5215 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EJEC_SERVO"
+		(shape input)
+		(at 302.26 173.99 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94646b0d-47ef-4db6-b8e8-25113b00f50b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.26 188.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14277,6 +14317,73 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 307.34 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c005ba-5e6f-46ef-bb49-b58bdd58dc27")
+		(property "Reference" "#PWR064"
+			(at 307.34 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.3401 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80c5c4aa-d0d4-4d07-b630-86600de29959")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -21920,6 +22027,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 304.8 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c46fec7c-0da1-4206-bbc1-125ed54f64dc")
+		(property "Reference" "#PWR034"
+			(at 304.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 304.8001 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 304.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "473a5253-21d7-4167-aa2a-ac388002a552")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:PRTR5V0U2X")
 		(at 83.82 36.83 0)
 		(unit 1)
@@ -23868,6 +24042,78 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 304.8 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4d80b0f-6f51-4cef-9242-40b20e217589")
+		(property "Reference" "J7"
+			(at 309.88 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EJECTION_SERVO"
+			(at 309.626 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 304.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 304.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3e47e05f-de90-48b7-b22b-8f501c5fea79")
+		)
+		(pin "2"
+			(uuid "5ddb3659-6f3f-482c-b4ac-6f5964bbb6c1")
+		)
+		(pin "1"
+			(uuid "35a67d48-78e6-4a68-bd1b-ebd68e67ed6f")
+		)
+		(instances
+			(project "Vanguard_new"
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "J7")
 					(unit 1)
 				)
 			)
