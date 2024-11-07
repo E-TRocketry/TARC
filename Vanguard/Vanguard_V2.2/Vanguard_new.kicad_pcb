@@ -11945,7 +11945,7 @@
 		(uuid "7f68a3ac-4002-4ea9-9205-7ec4e3f990d9")
 		(at 175.176211 112.238695)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "b5601115-fb7d-48c2-bf40-ea569829bc9c")
 			(effects
@@ -11956,7 +11956,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0b406e00-d8c7-42f6-b0d3-1be0d82cb173")
 			(effects
@@ -11967,7 +11967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "432b1edf-567f-43a5-a2b2-91b8abeb5368")
@@ -11979,7 +11979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98f8ec82-c9f0-4399-bfed-ce3d65ac2ef3")
@@ -11991,7 +11991,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4441a530-7a76-4814-a68c-1de417a3b928")
