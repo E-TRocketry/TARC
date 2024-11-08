@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "","","b9f70def-b1a4-4804-8b04-89d3a63594a6",175.176211,-112.238695,0.000000,top
 "BZ1","Buzzer","Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm",176.010785,-126.990000,180.000000,top
 "C1","4n7","C_0201_0603Metric",155.865000,-104.220000,0.000000,top
