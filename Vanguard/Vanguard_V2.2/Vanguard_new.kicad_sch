@@ -9316,6 +9316,12 @@
 		(uuid "06b73764-354b-4640-9f45-7e459ff76ed3")
 	)
 	(junction
+		(at 345.44 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "075b4b15-82cd-4e06-b972-df9b3db7363c")
+	)
+	(junction
 		(at 71.12 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9350,12 +9356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "214af974-aa74-457a-91f9-803125866e85")
-	)
-	(junction
-		(at 345.44 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "292514c1-8e99-44c8-aa40-7a3fc2706ccb")
 	)
 	(junction
 		(at 171.45 43.18)
@@ -10347,6 +10347,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 157.48) (xy 347.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3d138d-7337-49c5-aadc-ef5a032a6324")
+	)
+	(wire
+		(pts
 			(xy 323.85 44.45) (xy 336.55 44.45)
 		)
 		(stroke
@@ -11007,16 +11017,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 157.48) (xy 345.44 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f36535-08a5-4af0-804b-4a1bbaa0ab11")
-	)
-	(wire
-		(pts
 			(xy 342.9 44.45) (xy 345.44 44.45)
 		)
 		(stroke
@@ -11214,16 +11214,6 @@
 			(type default)
 		)
 		(uuid "909c00a8-b008-4bd3-b1a5-1f7a308139f8")
-	)
-	(wire
-		(pts
-			(xy 355.6 157.48) (xy 345.44 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "917451ed-277f-4c7c-ba10-e626c402e701")
 	)
 	(wire
 		(pts
@@ -11744,6 +11734,16 @@
 			(type default)
 		)
 		(uuid "ccd77c87-4e6d-44d2-957e-4669f6f59142")
+	)
+	(wire
+		(pts
+			(xy 345.44 157.48) (xy 345.44 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf521585-5770-4f4d-a5a7-cb29f933ed02")
 	)
 	(wire
 		(pts
@@ -20566,6 +20566,74 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 351.79 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bda144b-e344-4a51-ae28-64456b9af8ad")
+		(property "Reference" "R33"
+			(at 351.79 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5m"
+			(at 351.79 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 351.79 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba2ee7b5-c416-42b4-85dc-5b126aea5f53")
+		)
+		(pin "2"
+			(uuid "7e4cb694-fd79-4d0a-8f16-d069a46c7ad4")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "R33")
 					(unit 1)
 				)
 			)
