@@ -10921,7 +10921,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 149.86) (xy 345.44 149.86)
+			(xy 353.06 149.86) (xy 345.44 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12483,7 +12483,7 @@
 	)
 	(text "SERVO POWER\n\n"
 		(exclude_from_sim no)
-		(at 340.36 147.574 0)
+		(at 339.852 147.066 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13043,7 +13043,7 @@
 	)
 	(global_label "servo_power"
 		(shape input)
-		(at 350.52 149.86 0)
+		(at 353.06 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13053,7 +13053,7 @@
 		)
 		(uuid "51afbd26-30c9-4be4-a025-00c0f6ec7f0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.9956 149.86 0)
+			(at 367.5356 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21011,10 +21011,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9bda144b-e344-4a51-ae28-64456b9af8ad")
 		(property "Reference" "R33"
-			(at 351.79 151.13 90)
+			(at 350.266 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
