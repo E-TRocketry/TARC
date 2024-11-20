@@ -9472,6 +9472,12 @@
 		(uuid "686de8f3-ed59-4414-8ffb-ba7cc089cd41")
 	)
 	(junction
+		(at 55.88 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b3ab831-0ef0-4a6b-a3dd-fd35fc014ae8")
+	)
+	(junction
 		(at 96.52 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11625,7 +11631,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 151.13) (xy 62.23 151.13)
+			(xy 52.07 151.13) (xy 55.88 151.13)
 		)
 		(stroke
 			(width 0)
@@ -11762,6 +11768,16 @@
 			(type default)
 		)
 		(uuid "c2c3bfda-4cba-4031-8901-03369e458774")
+	)
+	(wire
+		(pts
+			(xy 55.88 151.13) (xy 62.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cca70c-41ba-4ec9-aa47-f650a6bbbdf0")
 	)
 	(wire
 		(pts
@@ -14145,6 +14161,73 @@
 			(project "Vanguard_new"
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0956d480-d50c-4ba7-901c-ad8ca7bed36a")
+		(property "Reference" "TP7"
+			(at 58.42 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.42 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac0d0541-dc77-4f9c-b70a-a1a5cc2dd51e")
+		)
+		(instances
+			(project ""
+				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
