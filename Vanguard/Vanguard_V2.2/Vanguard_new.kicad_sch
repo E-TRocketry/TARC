@@ -9496,6 +9496,12 @@
 		(uuid "72abcbde-770c-498f-b918-d6b4d44d2f82")
 	)
 	(junction
+		(at 62.23 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74dba19d-372c-4b2a-ad83-a1bd900fcc31")
+	)
+	(junction
 		(at 311.15 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9644,6 +9650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed770dc3-2893-4a36-97f6-c7db76772f87")
+	)
+	(junction
+		(at 62.23 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edfc3060-6c95-4e13-aa75-0864f6a67c78")
 	)
 	(junction
 		(at 407.67 154.94)
@@ -9871,7 +9883,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 24.13) (xy 66.04 24.13)
+			(xy 43.18 24.13) (xy 62.23 24.13)
 		)
 		(stroke
 			(width 0)
@@ -10131,7 +10143,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 54.61) (xy 63.5 54.61)
+			(xy 52.07 54.61) (xy 62.23 54.61)
 		)
 		(stroke
 			(width 0)
@@ -11721,6 +11733,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 54.61) (xy 63.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ff10d3-fac3-42b3-b2ca-8e146327e6a3")
+	)
+	(wire
+		(pts
 			(xy 284.48 71.12) (xy 321.31 71.12)
 		)
 		(stroke
@@ -11738,6 +11760,16 @@
 			(type default)
 		)
 		(uuid "c9547cd5-f4ba-4e71-b660-e6c5f7927b09")
+	)
+	(wire
+		(pts
+			(xy 62.23 24.13) (xy 62.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab4b231-3bcc-41fb-9b7a-07f7d8264852")
 	)
 	(wire
 		(pts
@@ -11788,6 +11820,16 @@
 			(type default)
 		)
 		(uuid "cf521585-5770-4f4d-a5a7-cb29f933ed02")
+	)
+	(wire
+		(pts
+			(xy 62.23 24.13) (xy 66.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f41959-72d1-4de6-8875-761cfd78fea2")
 	)
 	(wire
 		(pts
@@ -14014,7 +14056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 29.21 233.68 0)
 			(effects
 				(font
@@ -14148,7 +14190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 60.96 151.13 0)
 			(effects
 				(font
@@ -15535,7 +15577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 133.35 151.13 0)
 			(effects
 				(font
@@ -16019,7 +16061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 146.05 231.14 0)
 			(effects
 				(font
@@ -16068,7 +16110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b49b88b-2d7c-4d40-b89c-9dcd9449afb6")
-		(property "Reference" "2k2"
+		(property "Reference" "R34"
 			(at 379.73 119.3799 0)
 			(effects
 				(font
@@ -16077,7 +16119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 379.73 121.9199 0)
 			(effects
 				(font
@@ -16086,7 +16128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 375.412 120.65 90)
 			(effects
 				(font
@@ -16122,7 +16164,7 @@
 		(instances
 			(project ""
 				(path "/972fbf12-2dcd-4fdf-b1c9-8a2880c46640"
-					(reference "2k2")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -20982,7 +21024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 351.79 155.702 90)
 			(effects
 				(font
@@ -21509,7 +21551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 343.8652 52.07 0)
 			(effects
 				(font
@@ -25158,7 +25200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 130.81 142.24 0)
 			(effects
 				(font
